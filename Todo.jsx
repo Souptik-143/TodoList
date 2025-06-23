@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import "./Todo.css";
-
+//edit
+// Todo.jsx
+// This is a simple Todo application built with React.
+// It allows users to add, edit, delete, and mark tasks as done.
+// The application also includes features to clear all tasks and convert all tasks to uppercase.
 export default function Todo() {
   const [todos, setTodos] = useState([{ task: "Sample Task", id: uuidv4(), done: false }]);
   const [newTodo, setNewTodo] = useState("");
